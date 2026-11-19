@@ -76,9 +76,4 @@ Form kontak memakai Web3Forms dengan `access_key` yang terdaftar di `script.js`.
 2. Salin **Access Key** dari dashboard
 3. Ganti nilai `access_key` di dalam `script.js`
 
-## 👤 Author
 
-**Nadika Fiqri**
-
-- GitHub: [@Nadikafiqri](https://github.com/Nadikafiqri)
-- Email: nadikafiqri09@gmail.com
