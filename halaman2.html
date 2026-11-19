@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak | Nadika Fiqri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Nadika</a>
+      <nav>
+        <a href="index.html">Beranda</a>
+        <a href="halaman2.html" class="active">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow">Kontak</span>
+      <h1>Hubungi <span class="highlight">Saya</span></h1>
+      <p>Jika ingin ngobrol, belajar, atau sekadar menyapa, kirimkan pesan di bawah ini.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container contact-grid">
+      <div class="contact-form card">
+        <h2>Kirim Pesan</h2>
+        <form id="contactForm">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+
+          <button type="submit" id="submitBtn" class="btn btn-primary btn-block">Kirim Pesan</button>
+          <p id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <div class="info-card card">
+          <div class="info-icon">✉</div>
+          <div>
+            <h3>Email</h3>
+            <p>nadikafiqri09@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="info-card card">
+          <div class="info-icon">☎</div>
+          <div>
+            <h3>Telepon</h3>
+            <p>0812-3456-7890</p>
+          </div>
+        </div>
+
+        <div class="info-card card">
+          <div class="info-icon">⌂</div>
+          <div>
+            <h3>Alamat</h3>
+            <p>Malang, Indonesia</p>
+          </div>
+        </div>
+
+        <a href="index.html" class="btn btn-outline btn-block">Kembali ke Beranda</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
